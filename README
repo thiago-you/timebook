@@ -9,6 +9,21 @@ time logs of work for presentation to a client, or simply track how you
 spend your free time. Timebook is implemented as a python script which
 maintains its state in a sqlite3 database.
 
+Requirements
+~~~~~~~~
+- python2
+- python-setuptools
+
+Install
+~~~~~~~~
+Installation steps. First we need to make sure the correct version of python is currently instaled, after that is also needed to have python-setuptools. When or python is ready, just clone the project, access the cloned directory and execute the installation. Follow the bellow commands:
+
+$ sudo apt install python2
+$ sudo apt-get install python-setuptools
+$ git clone https://github.com/thiago-you/timebook.git
+$ cd timebook
+$ sudo python2 setup.py install
+
 Concepts
 ~~~~~~~~
 
