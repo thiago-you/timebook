@@ -18,11 +18,11 @@ Install
 ~~~~~~~~
 Installation steps. First we need to make sure the correct version of python is currently instaled, after that is also needed to have python-setuptools. When or python is ready, just clone the project, access the cloned directory and execute the installation. Follow the bellow commands:
 
-$ sudo apt install python2
-$ sudo apt-get install python-setuptools
-$ git clone https://github.com/thiago-you/timebook.git
-$ cd timebook
-$ sudo python2 setup.py install
+  $ sudo apt install python2
+  $ sudo apt-get install python-setuptools
+  $ git clone https://github.com/thiago-you/timebook.git
+  $ cd timebook
+  $ sudo python2 setup.py install
 
 Concepts
 ~~~~~~~~
@@ -53,7 +53,7 @@ timesheet ``foo`` was desired).
 Usage
 ~~~~~
 
-The basic usage is as follows::
+The basic usage is as follows:
 
   $ t switch writing
   $ t in document timebook
